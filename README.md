@@ -8,10 +8,11 @@ Under src > test > java > com > mytheresa > tests package, there are 3 test clas
 2-mytheresa.com search result
 3-problem solving
 
-You can directly run those test cases, and if you want you can change preferred browser type from configuration.properties file!
+You can directly run those test cases and if you want, you can change preferred browser type from configuration.properties file!
 
 # project
 I have created this project with maven so I keep all dependencies in pom.xml file
+-
 
 I created configuration.properties file, which contains browser type and urls in key-value format.
 
