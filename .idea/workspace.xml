@@ -165,7 +165,19 @@
       <option name="presentableId" value="Default" />
       <updated>1591260535691</updated>
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1591402066353</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591402066353</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1117" y="3" key="#Project_Structure" timestamp="1591261503146">
@@ -173,6 +185,10 @@
     </state>
     <state x="-1117" y="3" key="#Project_Structure/0.0.1280.680/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591261503146" />
     <state x="233" y="3" key="#Project_Structure/0.0.1280.680/-1366.0.1366.728@0.0.1280.680" timestamp="1591260567224" />
+    <state x="-1016" y="0" key="CommitChangelistDialog2" timestamp="1591402065221">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1016" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591402065221" />
     <state width="1323" height="251" key="GridCell.Tab.0.bottom" timestamp="1591401531966">
       <screen x="-1366" y="0" width="1366" height="728" />
     </state>
@@ -189,6 +205,10 @@
       <screen x="-1366" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="251" key="GridCell.Tab.0.right/0.0.1280.680/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591401531966" />
+    <state x="-1091" y="101" key="Vcs.Push.Dialog.v2" timestamp="1591402072378">
+      <screen x="-1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1091" y="101" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591402072378" />
     <state x="-872" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591401691054">
       <screen x="-1366" y="0" width="1366" height="728" />
     </state>
