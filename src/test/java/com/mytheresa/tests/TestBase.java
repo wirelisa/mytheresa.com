@@ -17,7 +17,7 @@ public class TestBase {
 
     @BeforeMethod
     public void setUpMethod(){
-        url=ConfigurationReader.get("url");
+        url=ConfigurationReader.get("url_web6");
         driver = Driver.get();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         action = new Actions(driver);
@@ -28,11 +28,11 @@ public class TestBase {
         //switch to iframe
         driver.switchTo().frame("privacy-iframe");
         //accept all cookies and continue
-        WebElement acceptAllandContinue=driver.findElement(By.xpath("//button[contains(.,'Accept all and continue')]"));
-        acceptAllandContinue.click();
+       WebElement acceptAllandContinue=driver.findElement(By.xpath("//button[contains(.,'Accept all and continue')]"));
+       acceptAllandContinue.click();
 
         //switch to defultContent
-        driver.switchTo().defaultContent();
+       driver.switchTo().defaultContent();
     }
 
 

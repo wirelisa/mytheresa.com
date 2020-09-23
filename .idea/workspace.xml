@@ -1,8 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="596b5f27-9b15-44f4-8579-cde76acf7c19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mytheresa/tests/web6CreateUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mytheresa/utilities/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/web6.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mytheresa/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mytheresa/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/mytheresa.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mytheresa/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mytheresa/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/mytheresa/tests/githubApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/mytheresa/tests/githubApi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,19 +51,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1cqeQbgnyuUk3xfTFxH69q8szb6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -44,19 +75,26 @@
       <recent name="com.mytheresa.tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="C:\Users\HP\IdeaProjects\mytheresa\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.githubApi.githubAPI1">
-    <configuration name="ProblemSolving" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mytheresa.tests.ProblemSolving" />
-      <module name="mytheresa" />
+  <component name="RunManager" selected="TestNG.web6CreateUser">
+    <configuration name="TC_SearchResult.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytheresa.com" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mytheresa.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.mytheresa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.mytheresa.tests.TC_SearchResult" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -72,24 +110,6 @@
       <option name="PACKAGE_NAME" value="com.mytheresa.tests" />
       <option name="MAIN_CLASS_NAME" value="com.mytheresa.tests.githubApi" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="githubApi.githubAPI" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytheresa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mytheresa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mytheresa.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.mytheresa.tests.githubApi" />
-      <option name="METHOD_NAME" value="githubAPI" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -114,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="githubApi.githubAPI2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mytheresa" />
+    <configuration name="web6CreateUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytheresa.com" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mytheresa.tests.*" />
@@ -123,8 +143,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.mytheresa.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.mytheresa.tests.githubApi" />
-      <option name="METHOD_NAME" value="githubAPI2" />
+      <option name="MAIN_CLASS_NAME" value="com.mytheresa.tests.web6CreateUser" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="web6CreateUser.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mytheresa.com" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mytheresa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mytheresa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.mytheresa.tests.web6CreateUser" />
+      <option name="METHOD_NAME" value="createUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,26 +171,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.web6CreateUser" />
+        <item itemvalue="TestNG.web6CreateUser.createUser" />
+        <item itemvalue="TestNG.TC_SearchResult.test" />
         <item itemvalue="TestNG.githubApi.githubAPI1" />
         <item itemvalue="TestNG.githubApi" />
-        <item itemvalue="TestNG.githubApi.githubAPI2" />
-        <item itemvalue="TestNG.githubApi.githubAPI" />
-        <item itemvalue="Application.ProblemSolving" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -175,51 +201,61 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1117" y="3" key="#Project_Structure" timestamp="1591261503146">
-      <screen x="-1366" y="0" width="1366" height="728" />
+    <state width="1566" height="286" key="GridCell.Tab.0.bottom" timestamp="1600863459345">
+      <screen x="0" y="23" width="1792" height="1047" />
     </state>
-    <state x="-1117" y="3" key="#Project_Structure/0.0.1280.680/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591261503146" />
-    <state x="233" y="3" key="#Project_Structure/0.0.1280.680/-1366.0.1366.728@0.0.1280.680" timestamp="1591260567224" />
-    <state x="-1016" y="0" key="CommitChangelistDialog2" timestamp="1591402435165">
-      <screen x="-1366" y="0" width="1366" height="728" />
+    <state width="1486" height="286" key="GridCell.Tab.0.bottom/0.23.1792.1044@0.23.1792.1044" timestamp="1600862288406" />
+    <state width="1750" height="286" key="GridCell.Tab.0.bottom/0.23.1792.1045@0.23.1792.1045" timestamp="1600863196007" />
+    <state width="1486" height="286" key="GridCell.Tab.0.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1600862419021" />
+    <state width="1566" height="286" key="GridCell.Tab.0.bottom/0.23.1792.1047@0.23.1792.1047" timestamp="1600863459345" />
+    <state width="1486" height="286" key="GridCell.Tab.0.bottom/0.23.1792.1048@0.23.1792.1048" timestamp="1600862506075" />
+    <state width="1486" height="286" key="GridCell.Tab.0.bottom/0.23.1792.1049@0.23.1792.1049" timestamp="1600862783780" />
+    <state width="1486" height="286" key="GridCell.Tab.0.bottom/0.23.1792.1050@0.23.1792.1050" timestamp="1600862127329" />
+    <state width="1566" height="286" key="GridCell.Tab.0.center" timestamp="1600863459345">
+      <screen x="0" y="23" width="1792" height="1047" />
     </state>
-    <state x="-1016" y="0" key="CommitChangelistDialog2/0.0.1280.680/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591402435165" />
-    <state width="1323" height="251" key="GridCell.Tab.0.bottom" timestamp="1591401531966">
-      <screen x="-1366" y="0" width="1366" height="728" />
+    <state width="1486" height="286" key="GridCell.Tab.0.center/0.23.1792.1044@0.23.1792.1044" timestamp="1600862288405" />
+    <state width="1750" height="286" key="GridCell.Tab.0.center/0.23.1792.1045@0.23.1792.1045" timestamp="1600863196007" />
+    <state width="1486" height="286" key="GridCell.Tab.0.center/0.23.1792.1046@0.23.1792.1046" timestamp="1600862419021" />
+    <state width="1566" height="286" key="GridCell.Tab.0.center/0.23.1792.1047@0.23.1792.1047" timestamp="1600863459345" />
+    <state width="1486" height="286" key="GridCell.Tab.0.center/0.23.1792.1048@0.23.1792.1048" timestamp="1600862506075" />
+    <state width="1486" height="286" key="GridCell.Tab.0.center/0.23.1792.1049@0.23.1792.1049" timestamp="1600862783779" />
+    <state width="1486" height="286" key="GridCell.Tab.0.center/0.23.1792.1050@0.23.1792.1050" timestamp="1600862127328" />
+    <state width="1566" height="286" key="GridCell.Tab.0.left" timestamp="1600863459345">
+      <screen x="0" y="23" width="1792" height="1047" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.bottom/0.0.1280.680/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591401531966" />
-    <state width="1323" height="251" key="GridCell.Tab.0.center" timestamp="1591401531966">
-      <screen x="-1366" y="0" width="1366" height="728" />
+    <state width="1486" height="286" key="GridCell.Tab.0.left/0.23.1792.1044@0.23.1792.1044" timestamp="1600862288405" />
+    <state width="1750" height="286" key="GridCell.Tab.0.left/0.23.1792.1045@0.23.1792.1045" timestamp="1600863196007" />
+    <state width="1486" height="286" key="GridCell.Tab.0.left/0.23.1792.1046@0.23.1792.1046" timestamp="1600862419020" />
+    <state width="1566" height="286" key="GridCell.Tab.0.left/0.23.1792.1047@0.23.1792.1047" timestamp="1600863459345" />
+    <state width="1486" height="286" key="GridCell.Tab.0.left/0.23.1792.1048@0.23.1792.1048" timestamp="1600862506074" />
+    <state width="1486" height="286" key="GridCell.Tab.0.left/0.23.1792.1049@0.23.1792.1049" timestamp="1600862783779" />
+    <state width="1486" height="286" key="GridCell.Tab.0.left/0.23.1792.1050@0.23.1792.1050" timestamp="1600862127328" />
+    <state width="1566" height="286" key="GridCell.Tab.0.right" timestamp="1600863459345">
+      <screen x="0" y="23" width="1792" height="1047" />
     </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.center/0.0.1280.680/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591401531966" />
-    <state width="1323" height="251" key="GridCell.Tab.0.left" timestamp="1591401531966">
-      <screen x="-1366" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.left/0.0.1280.680/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591401531966" />
-    <state width="1323" height="251" key="GridCell.Tab.0.right" timestamp="1591401531966">
-      <screen x="-1366" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="251" key="GridCell.Tab.0.right/0.0.1280.680/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591401531966" />
-    <state x="-1091" y="101" key="Vcs.Push.Dialog.v2" timestamp="1591402072378">
-      <screen x="-1366" y="0" width="1366" height="728" />
-    </state>
-    <state x="-1091" y="101" key="Vcs.Push.Dialog.v2/0.0.1280.680/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591402072378" />
-    <state x="-872" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591401691054">
-      <screen x="-1366" y="0" width="1366" height="728" />
-    </state>
-    <state x="-872" y="284" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591401691054" />
-    <state x="-975" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1591369868706">
-      <screen x="-1366" y="0" width="1366" height="728" />
-    </state>
-    <state x="-975" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591369868706" />
-    <state x="-1020" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591373606009">
-      <screen x="-1366" y="0" width="1366" height="728" />
-    </state>
-    <state x="-1020" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/-1366.0.1366.728@-1366.0.1366.728" timestamp="1591373606009" />
+    <state width="1486" height="286" key="GridCell.Tab.0.right/0.23.1792.1044@0.23.1792.1044" timestamp="1600862288406" />
+    <state width="1750" height="286" key="GridCell.Tab.0.right/0.23.1792.1045@0.23.1792.1045" timestamp="1600863196007" />
+    <state width="1486" height="286" key="GridCell.Tab.0.right/0.23.1792.1046@0.23.1792.1046" timestamp="1600862419021" />
+    <state width="1566" height="286" key="GridCell.Tab.0.right/0.23.1792.1047@0.23.1792.1047" timestamp="1600863459345" />
+    <state width="1486" height="286" key="GridCell.Tab.0.right/0.23.1792.1048@0.23.1792.1048" timestamp="1600862506075" />
+    <state width="1486" height="286" key="GridCell.Tab.0.right/0.23.1792.1049@0.23.1792.1049" timestamp="1600862783780" />
+    <state width="1486" height="286" key="GridCell.Tab.0.right/0.23.1792.1050@0.23.1792.1050" timestamp="1600862127329" />
   </component>
 </project>
